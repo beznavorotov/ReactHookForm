@@ -1,8 +1,10 @@
 "use client";
 
-import { ModeToggle } from "@/components/ModeToggle";
+
 import { ThemeProvider } from "next-themes";
 import { ReactNode } from "react";
+import "./globals.css";
+import { ModeToggle } from "@/components/ModeToggle";
 
 interface RootLayoutProps {
   children: ReactNode;
