@@ -5,6 +5,7 @@ import { ThemeProvider } from "next-themes";
 import { ReactNode } from "react";
 import "./globals.css";
 import { ModeToggle } from "@/components/ModeToggle";
+import { Toaster } from "@/components/ui/toaster";
 
 interface RootLayoutProps {
   children: ReactNode;
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           </div>
           
           {children}
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>
