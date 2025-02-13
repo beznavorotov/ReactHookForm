@@ -83,7 +83,7 @@ export default function Home() {
                 <div className="flex flex-col space-y-4">
                   <div className="flex flex-col space-y-1">
                     <Label htmlFor="firstName" className="text-lg font-medium">
-                      Ваше ім'я
+                      Ваше ім`я
                     </Label>
                     <Input
                       {...register(FORM_FIELDS.FIRST_NAME)}
